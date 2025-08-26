@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King's Barber shop</title>
+    <style>
+        body{
+            background-image:url('images.png/Background.jpg');
+             background-size: cover; 
+             background-repeat: no-repeat; 
+             background-attachment: fixed;
+        }
+        .button {
+            background-color:red; 
+            border:white; 
+            color: white; 
+            padding: 15px 32px; 
+            text-align: center; 
+            text-decoration: none; 
+            display: inline-block; 
+            font-size: 16px; 
+            margin: 4px 2px; 
+            cursor: pointer; 
+            border-radius: 12px;
+            position: relative;
+            left: 45%;
+        }
+        .button:hover {
+            background-color: beige;
+            color: black;
+        }
+         body {
+      height: 3000px; /* making the page tall */
+    }
+    table,th,td {
+        border: 1px solid white;
+        border-collapse: collapse;
+        color:darkorange;
+        font-size: 150%;
+        font-family:'Times New Roman', Times, serif;
+        padding: 20px;
+    }
+    h1,p{
+        color:beige;
+        text-align: center;
+        font-size: 200%;
+    }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Welcome to King's Barber shop website!</h1>
+    <br>
+<p>Start engaging with our website for profesional and reliable services!</p><br>
+<p>With King's Barber, you will live a satisfying experience,
+share with friends that would like a cool look or  a professional hair cut</p><br>
+<!--Adding to butttons as links to the two others pages-->
+<button class="button" onclick="window.location.href='aboutus.html'">About Us</button><br>
+<button class="button" onclick="window.location.href='booking.html'">Book an Appointment</button>
+<br>
+<br>
+<!-- The code to display images side by side with their plrices -->
+<div style="display:flex; justify-content: space-between;align-items:flex-start;width:100%;text-align: center;">
+    <div>
+        <p style="color: beige;">Hair style: Dreadlocks</p> <p style="color: beige;"> Price: R150</p>
+        <img src="images.png/Dreadlocks.png" style="width: 100%;height: 100%;">
+    </div>
+       <div>
+        <p style="color: beige;">Hair style: Taper</p> <p style="color: beige;"> Price: R100</p>
+        <img src="images.png/Taper.png" style="width: 90%;height: 100%;">
+        </div>
+        <div>
+            <p style="color: beige;">Hair style:Braids</p> <p style="color: beige;"> Price: R200</p>
+            <img src="images.png/Braids.png" style="width: 100%;">
+        </div>
+        <div>
+            <p style="color: beige;">Hair style: Dye hair</p> <p style="color: beige;"> Price: R170</p>
+            <img src="images.png/Dye hair.png" style="width: 90%;">
+        </div>
+</div>
+<!--The code to add the others images with theirs prices -->
+<div style="display:flex; justify-content: space-between;align-items:flex-start;width:100%;text-align: center;">
+    <div>
+        <p style="color: beige;">Hair style: Crew cut</p> <p style="color: beige;"> Price: R90</p>
+        <img src="images.png/Crew cut.png" style="width: 100%;height: 100%;">
+    </div>
+       <div>
+        <p style="color: beige;">Hair style:Buzz cut</p> <p style="color: beige;"> Price: R100</p>
+        <img src="images.png/Buzz cut.jpeg" style="width: 80%;height: 50%;">
+        </div>
+        <div>
+            <p style="color: beige;">Hair style:Ceasar cut</p> <p style="color: beige;"> Price: R200</p>
+            <img src="images.png/Ceasar cut.jpg" style="width: 110%;">
+        </div>
+        <div>
+            <p style="color: beige;">Hair style: Quiff</p> <p style="color: beige;"> Price: R170</p>
+            <img src="images.png/Quiff hair cut.jpg" style="width: 80%;">
+        </div>
+</div>
+<!--The code to add the last 2 images with theirs prices -->
+<div style="display:flex; justify-content: space-between;align-items:flex-start;width:100%;text-align: center;">
+    <div>
+        <p style="color: beige;">Hair style:Lower fade</p> <p style="color: beige;"> Price: R90</p>
+        <img src="images.png/Lower fade.jpg" style="width: 30%;height: 50%;">
+    </div>
+       <div>
+        <p style="color: beige;">Hair style:Same level</p> <p style="color: beige;"> Price: R70</p>
+        <img src="images.png/Same level.jpg" style="width: 80%;height: 50%;">
+        </div>
+</div>
+
+</body>
+</html>

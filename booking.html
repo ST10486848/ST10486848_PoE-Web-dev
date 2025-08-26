@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Page</title>
+    <style>
+        body{
+            background-image:url('images.png/Background.jpg');
+             background-size: cover; 
+             background-repeat: no-repeat; 
+             background-attachment: fixed;
+        }
+        h1,p{
+            color:beige;
+            text-align: center;
+            font-size: 200%;
+        }
+           
+    </style>
+</head>
+<body>
+    <h1>Booking an appointment</h1>
+    <p>Complete this form now to book your appointment: </p>
+    <!--Adding a form for the user to complete and validate the appointment -->
+    <form>
+        <label for="name" style="color:beige; font-size:150%;">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email" style="color:beige; font-size:150%;">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="phone" style="color:beige; font-size:150%;">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+        <label for="date" style="color:beige; font-size:150%;">Preferred Date:</label><br>
+        <input type="date" id="date" name="date" required><br><br>
+        <label for="time" style="color:beige; font-size:150%;">Preferred Time:</label><br>
+        <input type="time" id="time" name="time" required><br><br>
+        <label for="service" style="color:beige; font-size:150%;">Select Service:</label><br>
+        <select id="service" name="service" required>
+            <option value="haircut">Haircut</option>
+            <option value="shave">Shave</option>
+            <option value="trim">Beard Trim</option>
+            <option value="combo">Haircut & Shave Combo</option>
+        </select><br><br>
+        <input type="submit" value="Book Appointment" style="background-color:red; border:white; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 12px;">
+    </form>
+</body>
+</html>
