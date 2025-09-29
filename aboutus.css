@@ -1,0 +1,13 @@
+body{
+            background-image:url('images.png/Background.jpg');
+             background-size: cover; 
+             background-repeat: no-repeat; 
+             background-attachment: fixed;
+             background-color: chocolate;
+        }
+        h1,p{
+            color:beige;
+            text-align: center;
+            font-size: 2em;
+            font-family:cursive;
+        }
