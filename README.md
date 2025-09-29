@@ -6,4 +6,4 @@ Next we have our images of different hair style and above each image there's the
 The second page (About us) share a brief review of what King's Barber services and the contact , location, email and instagram page. 
 The last page(booking page) displays a form for the user to complete in oder to book an appointment 
 In all pages ther's a background image
-Link to Github repository:https://github.com/ST10486848/ST10486848_PoE-Web-dev
+Link to Github repository:https://github.com/ST10486848/ST10486848_PoE-Web-dev.git
