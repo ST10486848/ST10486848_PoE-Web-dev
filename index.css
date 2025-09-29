@@ -1,18 +1,34 @@
+   /* CSS for responsive design(for tablets) */
+   @media screen and (max-width: 768px) {
+         .button {
+              font-size: 1em;
+              padding: 1em;
+              left: 35%;
+         }
+      body{
+            background-image:url('images.png/Background.jpg');
+             background-size: cover; 
+             background-repeat: no-repeat; 
+             background-attachment: fixed;
+        }   
+        
+    }
 body{
             background-image:url('images.png/Background.jpg');
              background-size: cover; 
              background-repeat: no-repeat; 
              background-attachment: fixed;
         }
+    
         .button {
             background-color:red; 
             color: white; 
             padding: 15px 32px; 
-            text-align: center; 
+            text-align: center;
             display: inline-block; 
-            font-size: 16px; 
-            margin: 4px 2px;  
-            border-radius: 12px;
+            font-size: 1em; 
+            margin: o.5em;  
+            border-radius: 1em;
             position: relative;
             left: 45%;
         }
@@ -26,6 +42,22 @@ body{
     h1,p{
         color:beige;
         text-align: center;
-        font-size: 200%;
+        font-size: 2em;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
+/* CSS for responsive design(for phones) */
+   @media screen and (max-width: 375px) {
+         .button {
+              font-size: 1em;
+              padding: 1em;
+              left: 35%;
+         }
+      body{
+            background-image:url('images.png/Background.jpg');
+             background-size: cover; 
+             background-repeat: no-repeat; 
+             background-attachment: fixed;
+        }   
+        
+    }
+   

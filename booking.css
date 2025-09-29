@@ -1,3 +1,17 @@
+ /* CSS for responsive design(for tablets) */
+   @media screen and (max-width: 768px) {
+         .button {
+              font-size: 1em;
+              padding: 1em;
+              left: 35%;
+         }
+      body{
+            background-image:url('images.png/Background.jpg');
+             background-size: cover; 
+             background-repeat: no-repeat; 
+             background-attachment: fixed;
+        }   
+    }
  body{
             background-image:url('images.png/Background.jpg');
              background-size: cover; 
@@ -8,4 +22,33 @@
             color:beige;
             text-align: center;
             font-size:3em;
+            font-family:Arial, Helvetica, sans-serif
         }
+        
+.button1{
+    background-color:blue;
+    color:red;
+    padding: 1em;
+    border-radius:12px;
+    font-size:1.5em;
+    
+}
+.button1:hover{
+    background-color:cyan;
+    color:red;
+}
+/* CSS for responsive design(for phones) */
+   @media screen and (max-width: 375px) {
+         .button {
+              font-size: 1em;
+              padding: 1em;
+              left: 35%;
+         }
+      body{
+            background-image:url('images.png/Background.jpg');
+             background-size: cover; 
+             background-repeat: no-repeat; 
+             background-attachment: fixed;
+        }   
+        
+    }
